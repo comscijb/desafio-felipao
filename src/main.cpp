@@ -9,7 +9,6 @@ int main(){
     int experienceToAdd;
     bool continueLoop = true;
     string userResponse = "s";
-    string availableOptions[2] = {"s", "n"};
 
     while (continueLoop)
     {
@@ -25,9 +24,7 @@ int main(){
            continueLoop = false; 
         } else {
             cout << "Opçao invalida, continuando loop...\n";
-        }
-        
-                
+        }        
     }
 
     if (heroExperience < 1000){
@@ -48,7 +45,7 @@ int main(){
         heroLevel = "Radiante";
     }
 
-    cout << "\nO heroi de nome " << heroName << " esta no nivel de " << heroLevel;
+    cout << "\nO heroi de nome " << heroName << " esta no nivel de " << heroLevel << "!!";
 
     return 0;
 }
