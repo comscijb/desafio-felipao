@@ -12,11 +12,11 @@ int main(){
 
     while (continueLoop)
     {
-        cout << "Digite a experiencia a ser adcionada ao heroi:\n ";
+        cout << "Digite a experiencia a ser adicionada ao heroi:\n ";
         cin >> experienceToAdd;
         heroExperience += experienceToAdd;
         cout << heroName << " agora tem " << heroExperience << " pontos de experiencia.\n";
-        cout << "Deseja adcionar mais experiencia?[s/n] ";
+        cout << "Deseja adicionar mais experiencia?[s/n] ";
         cin >> userResponse;
         if (userResponse == "s" || userResponse == "S"){
             continue;
